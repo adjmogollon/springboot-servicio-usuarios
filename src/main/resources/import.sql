@@ -1,5 +1,5 @@
-INSERT INTO `usuarios` (username, password, enabled, nombre, apellido, email) VALUES ('user','12345',1, 'Usuario', 'Basico','user@gmail.com');
-INSERT INTO `usuarios` (username, password, enabled, nombre, apellido, email) VALUES ('admin','12345',1, 'Administrador', 'Avanzado','admin@gmail.com');
+INSERT INTO `usuarios` (username, password, enabled, nombre, apellido, email) VALUES ('user','$2a$10$cVJyMaQ0YBMmCsQ/H5F2O.lWV0i4uaBe9bhvMQ72hn8VULFaXrQ.u',1, 'Usuario', 'Basico','user@gmail.com');
+INSERT INTO `usuarios` (username, password, enabled, nombre, apellido, email) VALUES ('admin','$2a$10$cVJyMaQ0YBMmCsQ/H5F2O.lWV0i4uaBe9bhvMQ72hn8VULFaXrQ.u',1, 'Administrador', 'Avanzado','admin@gmail.com');
 
 INSERT INTO `roles` (nombre) VALUES ('ROLE_USER');
 INSERT INTO `roles` (nombre) VALUES ('ROLE_ADMIN');
